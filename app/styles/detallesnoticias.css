@@ -1,0 +1,22 @@
+.imagen{
+    display: block;
+    padding: 4rem;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.contenido{
+    margin-left: 100px;
+}
+
+.contenido h1{
+    margin-right: 400px;
+}
+
+.descripcion{
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -o-pre-wrap;
+    text-align: justify;
+    margin-right: 400px;   
+}

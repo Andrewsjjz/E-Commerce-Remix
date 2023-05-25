@@ -1,0 +1,116 @@
+.imagen {
+    display: flex;
+    padding: 2rem;
+}
+
+.foto{
+    width: 20%;
+}
+
+ .imagen img{
+    width: 50%;
+    height: 50%;
+    margin-top: 20px;
+} 
+
+.descripcion-producto{
+    margin-left: 5rem;
+}
+
+.descripcion{
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -o-pre-wrap;
+    text-align: justify;
+}
+
+.formulario{
+  display:flex;
+  flex-direction: column; 
+}
+
+.formulario label{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.formulario select{
+    cursor: pointer;
+    text-align: center;
+    width: 200px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+
+.formulario input{
+    cursor: pointer;
+    color: #394867;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #F1F6F9;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    text-transform: uppercase;
+}
+
+.descripcion-producto input:hover{
+    background-color: #212A3E;
+    color: white;
+}
+
+.cta {
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+  
+  .cta span {
+    padding-bottom: 7px;
+    letter-spacing: 4px;
+    font-size: 14px;
+    padding-right: 15px;
+    text-transform: uppercase;
+  }
+  
+  .cta svg {
+    transform: translateX(-8px);
+    transition: all 0.3s ease;
+  }
+  
+  .cta:hover svg {
+    transform: translateX(0);
+  }
+  
+  .cta:active svg {
+    transform: scale(0.9);
+  }
+  
+  .hover-underline-animation {
+    position: relative;
+    color: black;
+    padding-bottom: 20px;
+  }
+  
+  .hover-underline-animation:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #000000;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .cta:hover .hover-underline-animation:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  
+
+
+
