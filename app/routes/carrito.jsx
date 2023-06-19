@@ -34,7 +34,6 @@ export default function Carrito() {
       {() => (
     <main className="contenedor">
       <h1 className="heading">Resumen y detalle de tu compra</h1>
-
       <div className="contenido">
 
         <div className='carrito'>
@@ -93,6 +92,7 @@ export default function Carrito() {
 
     </main>
     )}
+
     </>
   )
 }
